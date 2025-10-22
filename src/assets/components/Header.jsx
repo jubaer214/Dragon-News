@@ -7,7 +7,7 @@ const Header = () => {
         <div className='flex justify-center items-center flex-col gap-5 mt-8'>
             <img className='' src={logo} alt="" />
             <p className='text-accent'>Journalism Without Fear or Favour</p>
-            <p className='text-accent font-semibold'>{ format(new Date(),"EEEE, MMMM MM, yyyy")}</p>
+            <p className='text-accent font-semibold'>{ format(new Date(),"EEEE, MMMM dd, yyyy")}</p>
         </div>
     );
 };
